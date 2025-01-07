@@ -1,0 +1,25 @@
+{
+  "name": "apollo-server-example",
+  "version": "1.0.0",
+  "description": "Optimized free api {JSON} Placeholder for Apollo Server",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "@types/node": "^22.10.5",
+    "graphql": "^16.10.0"
+  },
+  "type": "module"
+}
